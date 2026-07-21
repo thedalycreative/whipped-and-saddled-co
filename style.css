@@ -194,6 +194,88 @@ footer a {
   text-decoration: none;
 }
 
+.hero-kicker {
+  color: var(--gold);
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: .85rem;
+}
+
+.promise-bar {
+  background-color: var(--leather);
+  color: var(--cream);
+}
+
+.promise-bar .small {
+  color: var(--tan);
+  font-style: italic;
+}
+
+.product-thumb {
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5rem;
+  background: linear-gradient(135deg, var(--leather-dark), var(--leather-light));
+}
+
+.testimonials-alt {
+  background-color: #efe7db;
+}
+
+.partner-card {
+  background: #fff;
+  border: 1px solid var(--tan);
+  border-top: 4px solid var(--gold);
+  border-radius: .5rem;
+  padding: 2rem;
+  height: 100%;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 2rem rgba(62, 39, 35, .15);
+}
+
+.partner-card .partner-icon {
+  font-size: 2.5rem;
+  margin-bottom: .75rem;
+}
+
+.partner-tag {
+  display: inline-block;
+  background-color: var(--cream);
+  border: 1px solid var(--tan);
+  color: var(--leather);
+  border-radius: 2rem;
+  padding: .15rem .75rem;
+  font-size: .75rem;
+  font-weight: 700;
+  margin: 0 .25rem .5rem 0;
+}
+
+.partner-featured {
+  background: #fff;
+  border: 1px solid var(--tan);
+  border-left: 6px solid var(--gold);
+  border-radius: .5rem;
+  padding: 2.5rem;
+  box-shadow: 0 .5rem 1.5rem rgba(62, 39, 35, .08);
+}
+
+.page-hero {
+  background: linear-gradient(rgba(30, 17, 13, .75), rgba(30, 17, 13, .85)),
+    url('photos/hero_background.png') center/cover no-repeat;
+  color: #fff;
+  padding: 6rem 0 4rem;
+}
+
+.page-hero .lead {
+  color: var(--tan);
+}
+
 .divider-gold {
   width: 60px;
   height: 3px;
